@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD136C931FF362CE002EE402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136C921FF362CE002EE402 /* AppDelegate.m */; };
+		CD136C9B1FF362CE002EE402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD136C9A1FF362CE002EE402 /* Assets.xcassets */; };
+		CD136C9E1FF362CE002EE402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */; };
+		CD136CA11FF362CE002EE402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD136CA01FF362CE002EE402 /* main.m */; };
+		CD7CDDEF1FF47B8A00456F30 /* MOMultiLanguage.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD7CDDEE1FF47B8900456F30 /* MOMultiLanguage.plist */; };
+		CD7CDDF21FF47BC000456F30 /* MOMultiLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDDF01FF47BC000456F30 /* MOMultiLanguage.m */; };
+		CD7CDDF51FF47C8C00456F30 /* MOOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDDF41FF47C8C00456F30 /* MOOneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD136C8E1FF362CE002EE402 /* 音频Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音频Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD136C911FF362CE002EE402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD136C921FF362CE002EE402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD136C9A1FF362CE002EE402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD136C9D1FF362CE002EE402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD136C9F1FF362CE002EE402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD136CA01FF362CE002EE402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7CDDEE1FF47B8900456F30 /* MOMultiLanguage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MOMultiLanguage.plist; sourceTree = "<group>"; };
+		CD7CDDF01FF47BC000456F30 /* MOMultiLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMultiLanguage.m; sourceTree = "<group>"; };
+		CD7CDDF11FF47BC000456F30 /* MOMultiLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMultiLanguage.h; sourceTree = "<group>"; };
+		CD7CDDF31FF47C8C00456F30 /* MOOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOOneViewController.h; sourceTree = "<group>"; };
+		CD7CDDF41FF47C8C00456F30 /* MOOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOOneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD136C8B1FF362CE002EE402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD136C851FF362CE002EE402 = {
+			isa = PBXGroup;
+			children = (
+				CD136C901FF362CE002EE402 /* 音频Demo */,
+				CD136C8F1FF362CE002EE402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD136C8F1FF362CE002EE402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD136C8E1FF362CE002EE402 /* 音频Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD136C901FF362CE002EE402 /* 音频Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CD136CBB1FF37305002EE402 /* other */,
+				CD136CB11FF369C0002EE402 /* Model */,
+				CD136CAE1FF3685E002EE402 /* View */,
+				CD136CA71FF364A5002EE402 /* VC */,
+				CD136C911FF362CE002EE402 /* AppDelegate.h */,
+				CD136C921FF362CE002EE402 /* AppDelegate.m */,
+				CD136C9A1FF362CE002EE402 /* Assets.xcassets */,
+				CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */,
+				CD136C9F1FF362CE002EE402 /* Info.plist */,
+				CD136CA01FF362CE002EE402 /* main.m */,
+			);
+			path = "音频Demo";
+			sourceTree = "<group>";
+		};
+		CD136CA71FF364A5002EE402 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDDF31FF47C8C00456F30 /* MOOneViewController.h */,
+				CD7CDDF41FF47C8C00456F30 /* MOOneViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD136CAE1FF3685E002EE402 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD136CB11FF369C0002EE402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDDF11FF47BC000456F30 /* MOMultiLanguage.h */,
+				CD7CDDF01FF47BC000456F30 /* MOMultiLanguage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD136CBB1FF37305002EE402 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDDEE1FF47B8900456F30 /* MOMultiLanguage.plist */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD136C8D1FF362CE002EE402 /* 音频Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD136CA41FF362CE002EE402 /* Build configuration list for PBXNativeTarget "音频Demo" */;
+			buildPhases = (
+				CD136C8A1FF362CE002EE402 /* Sources */,
+				CD136C8B1FF362CE002EE402 /* Frameworks */,
+				CD136C8C1FF362CE002EE402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音频Demo";
+			productName = "音频Demo";
+			productReference = CD136C8E1FF362CE002EE402 /* 音频Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD136C861FF362CE002EE402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = momo;
+				TargetAttributes = {
+					CD136C8D1FF362CE002EE402 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CD136C891FF362CE002EE402 /* Build configuration list for PBXProject "音频Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD136C851FF362CE002EE402;
+			productRefGroup = CD136C8F1FF362CE002EE402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD136C8D1FF362CE002EE402 /* 音频Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD136C8C1FF362CE002EE402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD136C9E1FF362CE002EE402 /* LaunchScreen.storyboard in Resources */,
+				CD7CDDEF1FF47B8A00456F30 /* MOMultiLanguage.plist in Resources */,
+				CD136C9B1FF362CE002EE402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD136C8A1FF362CE002EE402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7CDDF51FF47C8C00456F30 /* MOOneViewController.m in Sources */,
+				CD7CDDF21FF47BC000456F30 /* MOMultiLanguage.m in Sources */,
+				CD136CA11FF362CE002EE402 /* main.m in Sources */,
+				CD136C931FF362CE002EE402 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD136C9C1FF362CE002EE402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD136C9D1FF362CE002EE402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD136CA21FF362CE002EE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD136CA31FF362CE002EE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD136CA51FF362CE002EE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MC96DZKD;
+				INFOPLIST_FILE = "音频Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.momo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD136CA61FF362CE002EE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MC96DZKD;
+				INFOPLIST_FILE = "音频Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.momo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD136C891FF362CE002EE402 /* Build configuration list for PBXProject "音频Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD136CA21FF362CE002EE402 /* Debug */,
+				CD136CA31FF362CE002EE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD136CA41FF362CE002EE402 /* Build configuration list for PBXNativeTarget "音频Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD136CA51FF362CE002EE402 /* Debug */,
+				CD136CA61FF362CE002EE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD136C861FF362CE002EE402 /* Project object */;
+}
